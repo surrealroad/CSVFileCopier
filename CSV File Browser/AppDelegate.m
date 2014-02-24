@@ -12,7 +12,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.csvParser = [[CSVParser alloc]init];
+    self.csvParser.csvFilePath = @"Test path.csv";
+    self.destinationFolder = @"Test path";
 }
 
 @end

@@ -18,6 +18,9 @@
 		041753AD18B66D7F002249B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0417538C18B66D7F002249B4 /* Cocoa.framework */; };
 		041753B518B66D7F002249B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041753B318B66D7F002249B4 /* InfoPlist.strings */; };
 		041753B718B66D7F002249B4 /* CSV_File_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041753B618B66D7F002249B4 /* CSV_File_BrowserTests.m */; };
+		041753C218B7B7BC002249B4 /* FileListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 041753C118B7B7BC002249B4 /* FileListHelper.m */; };
+		043732DB18BBB22E00C76988 /* FileActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043732DA18BBB22E00C76988 /* FileActionItem.m */; };
+		043732DE18BBB3B900C76988 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 043732DD18BBB3B900C76988 /* CSVParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		041753B218B66D7F002249B4 /* CSV File BrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSV File BrowserTests-Info.plist"; sourceTree = "<group>"; };
 		041753B418B66D7F002249B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		041753B618B66D7F002249B4 /* CSV_File_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSV_File_BrowserTests.m; sourceTree = "<group>"; };
+		041753C018B7B7BC002249B4 /* FileListHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListHelper.h; sourceTree = "<group>"; };
+		041753C118B7B7BC002249B4 /* FileListHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListHelper.m; sourceTree = "<group>"; };
+		043732D918BBB22E00C76988 /* FileActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileActionItem.h; sourceTree = "<group>"; };
+		043732DA18BBB22E00C76988 /* FileActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileActionItem.m; sourceTree = "<group>"; };
+		043732DC18BBB3B900C76988 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		043732DD18BBB3B900C76988 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				0417539E18B66D7F002249B4 /* AppDelegate.h */,
+				041753C018B7B7BC002249B4 /* FileListHelper.h */,
+				041753C118B7B7BC002249B4 /* FileListHelper.m */,
+				043732D918BBB22E00C76988 /* FileActionItem.h */,
+				043732DC18BBB3B900C76988 /* CSVParser.h */,
+				043732DD18BBB3B900C76988 /* CSVParser.m */,
+				043732DA18BBB22E00C76988 /* FileActionItem.m */,
 				0417539F18B66D7F002249B4 /* AppDelegate.m */,
 				041753A118B66D7F002249B4 /* MainMenu.xib */,
 				041753A418B66D7F002249B4 /* Images.xcassets */,
@@ -252,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043732DB18BBB22E00C76988 /* FileActionItem.m in Sources */,
 				041753A018B66D7F002249B4 /* AppDelegate.m in Sources */,
+				043732DE18BBB3B900C76988 /* CSVParser.m in Sources */,
+				041753C218B7B7BC002249B4 /* FileListHelper.m in Sources */,
 				0417539918B66D7F002249B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +482,7 @@
 				041753BC18B66D7F002249B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041753BD18B66D7F002249B4 /* Build configuration list for PBXNativeTarget "CSV File BrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +491,7 @@
 				041753BF18B66D7F002249B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
