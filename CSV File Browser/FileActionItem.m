@@ -10,4 +10,15 @@
 
 @implementation FileActionItem
 
+-(id) init {
+    self = [super init];
+    if(self) {
+        self.filename = @"filename.ext";
+        self.sourcePath = nil;
+        self.destinationPath = nil;
+        self.status = nil;
+    }
+    return self;
+}
+
 @end

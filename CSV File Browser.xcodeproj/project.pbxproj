@@ -125,13 +125,13 @@
 			isa = PBXGroup;
 			children = (
 				0417539E18B66D7F002249B4 /* AppDelegate.h */,
+				0417539F18B66D7F002249B4 /* AppDelegate.m */,
 				041753C018B7B7BC002249B4 /* FileListHelper.h */,
 				041753C118B7B7BC002249B4 /* FileListHelper.m */,
 				043732D918BBB22E00C76988 /* FileActionItem.h */,
+				043732DA18BBB22E00C76988 /* FileActionItem.m */,
 				043732DC18BBB3B900C76988 /* CSVParser.h */,
 				043732DD18BBB3B900C76988 /* CSVParser.m */,
-				043732DA18BBB22E00C76988 /* FileActionItem.m */,
-				0417539F18B66D7F002249B4 /* AppDelegate.m */,
 				041753A118B66D7F002249B4 /* MainMenu.xib */,
 				041753A418B66D7F002249B4 /* Images.xcassets */,
 				0417539318B66D7F002249B4 /* Supporting Files */,
