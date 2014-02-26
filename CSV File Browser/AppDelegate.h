@@ -15,9 +15,12 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSArrayController *fileActionController;
 @property (weak) IBOutlet NSArrayController *sourceFolderController;
+@property (weak) IBOutlet NSProgressIndicator *progressBar;
 
 @property (strong) NSURL *csvFilePath;
-@property (assign) BOOL isCSVValid;
+@property (assign) int totalFileActions;
+@property (assign) int completedFileActions;
+@property (assign) int successfulFileActions;
 @property (strong) NSArray *csvArray;
 @property (strong) NSURL *destinationFolder;
 @property (strong) NSMutableArray *sourceFolders;
@@ -27,6 +30,7 @@
 - (IBAction)chooseDestinationFolder:(id)sender;
 - (IBAction)chooseCSVFile:(id)sender;
 - (IBAction)addSourceFolder:(id)sender;
+- (IBAction)processFileActions:(id)sender;
 
 - (void)populateFileActions;
 - (void)updateFileActionStatus;

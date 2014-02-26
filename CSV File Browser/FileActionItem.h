@@ -11,8 +11,8 @@
 @interface FileActionItem : NSObject
 
 @property (strong) NSString *filename;
-@property (strong) NSString *sourcePath;
-@property (strong) NSString *destinationPath;
+@property (strong) NSURL *sourcePath;
+@property (strong) NSURL *destinationPath;
 @property (strong) NSString *status;
 
 
